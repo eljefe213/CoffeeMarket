@@ -287,25 +287,22 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        <form action="">
-          <h3>get in touch</h3>
+        <form action="https://formspree.io/f/xoqzrgdz" method="POST">
+          <h3>Get in touch</h3>
           <div class="inputBox">
             <span><i class="fas fa-user"></i></span>
-              <input type="text" placeholder="name" />
-            </span>
+            <input type="text" name="name" placeholder="Name" required />
           </div>
           <div class="inputBox">
             <span><i class="fas fa-envelope"></i></span>
-              <input type="email" placeholder="email" />
-            </span>
+            <input type="email" name="email" placeholder="Email" required />
           </div>
           <div class="inputBox">
             <span><i class="fas fa-comment"></i></span>
-              <input type="number" placeholder="number" />
-            </span>
+            <input type="text" name="message" placeholder="Message" required />
           </div>
-          <input type="submit" value="contact now" class="btn" />
-        </form>
+          <input type="submit" value="Contact now" class="btn" />
+        </form>        
       </div>
     </section>
 
