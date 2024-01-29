@@ -474,6 +474,8 @@ section {
 .footer .credit span {
   color: var(--main-color);
 }
+
+
 /*media queries*/
 @media (max-width: 991px) {
   html {
